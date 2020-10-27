@@ -21,13 +21,33 @@ to understand.
   (e.g. "rhythm" -> "ythmrhay", "my" -> "ymay").
 
 
-There are a few more rules for edge cases, and there are regional
-variants too.
+**Technology**
 
-See <http://en.wikipedia.org/wiki/Pig_latin> for more details.
+- PHP
+
+- PHPUnit
+
+
+ **Main Packages**
+
+- PHPUnit =>7.0 was used for testing
+
+
+ **How to run**
+- Clone from Github
+```bash
+git clone https://github.com/sethbilly/pigify_pig_latin.git
+
+cd pigify_pig_latin
+
 
 ## Making the Test Suite Pass
 
 1. Execute the tests for the PigLatin function.
 
         % composer test
+
+There are a few more rules for edge cases, and there are regional
+variants too.
+
+See <http://en.wikipedia.org/wiki/Pig_latin> for more details.

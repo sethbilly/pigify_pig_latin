@@ -44,8 +44,11 @@ cd pigify_pig_latin
 ## Making the Test Suite Pass
 
 1. Execute the tests for the PigLatin function.
-        % composer test
+```
+composer install
 
+composer test
+```
 
 
 -There are a few more rules for edge cases, and there are regional
